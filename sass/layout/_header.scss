@@ -1,0 +1,45 @@
+header {
+  width: 100%;
+  margin-bottom: 60px;
+  margin-top: 20px;
+  .container {
+    padding-left: 0;
+  }
+}
+
+p {
+  font-family: "Roboto-regular";
+  font-size: 1rem;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+
+  &__about {
+    p {
+      margin-bottom: 0;
+    }
+    .underscore {
+      width: 20px;
+    }
+  }
+
+  &__separateur {
+    background-color: black;
+    width: 2px;
+    height: 30px;
+    margin: auto;
+  }
+  &__item {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  &__logo {
+    object-fit: contain;
+    object-position: 50% 50%;
+    width: 170px;
+    margin-right: 40px;
+    margin-left: 30px;
+  }
+}

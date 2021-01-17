@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  &:link {
+    text-decoration: none;
+  }
+  &:visited {
+    text-decoration: none;
+  }
+  &:hover {
+    color: lighten($color: black, $amount: 50%);
+  }
+}
+
+h1 {
+  font-family: "Roboto-bold";
+  font-size: 2.5rem;
+}
+
+.container {
+  width: 1440px;
+  margin: auto;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+}
+
+.headSection {
+  background-image: url("../../public/img/road_at_night.jfif");
+  background-size: cover;
+  height: 620px;
+  &__text {
+    height: 300px;
+    width: 1060px;
+    position: relative;
+    top: 250px;
+    background-color: $colour-primary;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    p {
+      width: 420px;
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.columns {
+  margin-top: 115px;
+  display: flex;
+  justify-content: space-between;
+  &__firstColumn {
+    > img {
+      object-fit: cover;
+      width: 620px;
+      height: 675px;
+    }
+    .text {
+      margin-top: 110px;
+    }
+    .line {
+      display: flex;
+      .number {
+        font-family: "Roboto-Black";
+        font-size: 7rem;
+        margin: 0;
+        margin-right: 15px;
+      }
+      .info {
+        p {
+          font-size: 1.2rem;
+          position: relative;
+          top: 50%;
+          font-family: "Roboto-Bold";
+          margin: 0;
+        }
+      }
+    }
+  }
+  &__secondColumn {
+    width: 550px;
+    p {
+      font-family: "Roboto-thin";
+      font-size: 1.3rem;
+      line-height: 2rem;
+      margin-block-end: 0;
+      margin-bottom: 60px;
+    }
+  }
+}
+.contactline {
+  font-family: "Roboto-black";
+  font-size: 1.9rem;
+  width: 100%;
+  margin-top: 220px;
+  margin-bottom: 160px;
+}
