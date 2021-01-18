@@ -38,6 +38,7 @@ h1 {
 
 .container {
   width: 1440px;
+  border: black solid 1px;
   margin: auto;
   padding-left: 80px;
   padding-right: 80px;
@@ -118,8 +119,8 @@ body {
 
 .contactline {
   font-family: "Roboto-black";
-  font-size: 1.4rem;
-  width: 1000px;
+  font-size: 1.2rem;
+  width: 900px;
   margin: auto;
   margin-top: 100px;
   margin-bottom: 120px;
@@ -136,7 +137,7 @@ header .container {
 
 p {
   font-family: "Roboto-regular";
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .navbar {
@@ -176,9 +177,12 @@ footer .container {
   height: 330px;
 }
 
+.contacts {
+  margin-left: 170px;
+}
 .contacts__logo {
   margin-top: 70px;
-  width: 200px;
+  width: 150px;
   margin-bottom: 40px;
 }
 .contacts__agences {
